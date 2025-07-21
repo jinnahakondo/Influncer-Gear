@@ -100,9 +100,55 @@ nav ul li a {
     gap: 60px;
     margin: 70px 0 160px 0;
 }
+/* popular collection style  */
+.popular{
+    width: 85%;
+    margin: 0 auto;
+}
+.popular .title{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.pc-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    grid-template-rows: repeat(3, 475px);   
+    justify-content: center;
+    align-items: center;  
+    gap: 30px; 
+}
+.pc-card-container .card{
+    padding: 20px 15px; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 0.15);
+}
+.card-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 40px;
+    color: var(--title-clr);
+}
+.price{
+    font-size: 1.5rem;
+    color: var(--primary-clr);
+    line-height: 150%;
+}
+.stars{
+    color: #FB8200;
+    display: inline-block;
 
-
-
+}
+.rate{
+    display: inline-block;
+}
+.card-text{
+    font-size: .9rem;
+    font-weight: 700;
+    color: var(--primary-clr);
+}
 
 
 
